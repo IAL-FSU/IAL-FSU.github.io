@@ -57,32 +57,30 @@ $(document).ready(function(){
     //http://jquery.com
     //http://caroufredsel.dev7studios.com
     $(function() {
-    	var $carousel = $('#carousel');
-    	var $wrapper = $('#wrapper');
-    	var $window = $(window);
-    	for (var i = 0; i < 100000000; i++) {
-          if (i==99999999){
-            
-              $window.resize(function() {
-          		$wrapper.height( $window.height() * 0.45 );
-          		$carousel.height( $window.height() * 0.45 );
-          	}).resize();
+		var $carousel = $('#carousel');
+		var $wrapper = $('#wrapper');
+		var $window = $(window);
 
-          	$carousel.carouFredSel({
-          		width: '100%',
-          		scroll: 1,
-          		items: {
-          			visible: 'odd+2',
-          			start: -1,
-          			width: 'variable',
-          			height: 'variable'
-          		}
-          	});
-            
-            
-          }else{};
-        };
-    });
+		$window.resize(function() {
+			$wrapper.height( $window.height() * 0.25 );
+			$carousel.height( $window.height() * 0.25 );
+		}).resize();
+		$window.resize(function() {
+			$wrapper.height( $window.height() * 0.45 );
+			$carousel.height( $window.height() * 0.45 );
+		}).resize();
+
+		$carousel.carouFredSel({
+			width: '100%',
+			scroll: 1,
+			items: {
+				visible: 'odd+2',
+				start: -1,
+				width: 'variable',
+				height: 'variable'
+			}
+		});
+	});
 
 
 });
