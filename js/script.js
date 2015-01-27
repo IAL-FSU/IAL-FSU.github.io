@@ -50,7 +50,7 @@ function table_exec() {
 chart.render();
 }
 
-$(document).ready(function(){
+$(window).load(function(){
 	$("chartContainer").text(table_exec());
 	//the carousel
     //This carousel example is created with jQuery and the carouFredSel-plugin.
@@ -60,11 +60,6 @@ $(document).ready(function(){
 		var $carousel = $('#carousel');
 		var $wrapper = $('#wrapper');
 		var $window = $(window);
-
-		$window.resize(function() {
-			$wrapper.height( $window.height() * 0.25 );
-			$carousel.height( $window.height() * 0.25 );
-		}).resize();
 		$window.resize(function() {
 			$wrapper.height( $window.height() * 0.45 );
 			$carousel.height( $window.height() * 0.45 );
