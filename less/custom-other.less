@@ -248,7 +248,7 @@ hr {
 				width: 650px;
 			}
 			@media (min-width: @screen-sm) {
-				width: 800px;
+				width: 720px;
 			}
 			@media (min-width: @screen-md) {
 				margin-top: 20px;
@@ -278,10 +278,13 @@ hr {
 			}
 		}
 		@media (min-width: @screen-sm) {
-			width: 830px;
+			width: 720px;
 			img {
 				width: 380px;
 			}
+		}
+		@media (min-width: @screen-lg) {
+			width: 830px;
 		}
 
 		#workshop_location {
@@ -319,7 +322,7 @@ hr {
 		width: 650px;
 	}
 	@media (min-width: @screen-sm){
-		width: 800px;
+		width: 720px;
 		margin-bottom: 80px;
 	}
 	h1 {
@@ -342,6 +345,9 @@ hr {
 	hr {
 		margin-top: 10px;
 		margin-bottom: 50px;
+	}
+	@media (min-width: @screen-lg) {
+		width: 830px;
 	}
 }
 #crazy_control {
@@ -415,7 +421,7 @@ footer {
 				font-size: 1em;
 				line-height: 2.2em;
 			}
-			width: 830px;
+			width: 720px;
 		}
 		@media (min-width: @screen-lg) {
 			width: 1200px;
@@ -425,20 +431,18 @@ footer {
 			}
 		}
 		#about1 {
-			@media(min-width: @screen-xs) {
-				.make-xs-column(4);
-			}
 			@media(min-width: @screen-sm) {
 				padding-right: 30px;
 			}
-		}
-		#about2 {
-			@media(min-width: @screen-xs) {
+			@media(min-width: @screen-lg) {
 				.make-xs-column(4);
 			}
+		}
+		#about2 {
 			@media(min-width: @screen-lg) {
 				padding-left: 30px;
 				padding-right: 30px;
+				.make-xs-column(4);
 			}
 		}
 		#contact {
@@ -446,14 +450,12 @@ footer {
 				font-size: 1em;
 				line-height: 1.5em;
 			}
-			@media(min-width: @screen-xs) {
-				.make-xs-column(4);
+			@media(min-width: @screen-lg) {
 				border-left: 1px solid #c99;
 				border-right: 1px solid #c99;
 				padding-left: 30px;
-			}
-			@media(min-width: @screen-lg) {
 				padding-left: 50px;
+				.make-xs-column(4);
 			}
 		}
 	}
