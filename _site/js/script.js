@@ -29,18 +29,18 @@ function table_exec() {
         color: "#001232",       
         dataPoints: [
         {y: 7, label: "Outside" },
-		{y: 4, label: "USF-SP"  },
+		{y: 7, label: "USF-SP"  },
 		{y: 3, label: "New Coll."  },
-		{y: 51, label: "UWF"  },
-		{y: 76, label: "USF"  },
-		{y: 48, label: "UNF"  },
-		{y: 111, label: "UF"  },
-		{y: 97, label: "UCF"  },
-		{y: 65, label: "FSU"  },
-		{y: 81, label: "FIU"  },
-		{y: 48, label: "FGCU"  },
-		{y: 49, label: "FAU"  },
-		{y: 57, label: "FAMU"  }
+		{y: 65, label: "UWF"  },
+		{y: 99, label: "USF"  },
+		{y: 55, label: "UNF"  },
+		{y: 147, label: "UF"  },
+		{y: 124, label: "UCF"  },
+		{y: 84, label: "FSU"  },
+		{y: 90, label: "FIU"  },
+		{y: 63, label: "FGCU"  },
+		{y: 71, label: "FAU"  },
+		{y: 68, label: "FAMU"  }
         ]
       }
       
