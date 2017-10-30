@@ -28,19 +28,19 @@ function table_exec() {
         axisYType: "secondary",
         color: "#001232",       
         dataPoints: [
-        {y: 7, label: "Outside" },
-		{y: 7, label: "USF-SP"  },
-		{y: 3, label: "New Coll."  },
-		{y: 65, label: "UWF"  },
-		{y: 99, label: "USF"  },
-		{y: 55, label: "UNF"  },
-		{y: 147, label: "UF"  },
-		{y: 124, label: "UCF"  },
-		{y: 84, label: "FSU"  },
-		{y: 90, label: "FIU"  },
-		{y: 63, label: "FGCU"  },
-		{y: 71, label: "FAU"  },
-		{y: 68, label: "FAMU"  }
+		{y: 7, label: "Outside" },
+		{y: 9, label: "Poly"  },
+		{y: 15, label: "New Coll."  },
+		{y: 84, label: "UWF"  },
+		{y: 143, label: "USF"  },
+		{y: 69, label: "UNF"  },
+		{y: 206, label: "UF"  },
+		{y: 155, label: "UCF"  },
+		{y: 125, label: "FSU"  },
+		{y: 112, label: "FIU"  },
+		{y: 90, label: "FGCU"  },
+		{y: 110, label: "FAU"  },
+		{y: 95, label: "FAMU"  }
         ]
       }
       
